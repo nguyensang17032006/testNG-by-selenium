@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-02T04:35:42Z" name="Surefire suite" finished-at="2026-11-02T04:36:02Z" duration-ms="20083">
+    <groups>
+    </groups>
+    <test started-at="2026-11-02T04:35:42Z" name="Surefire test" finished-at="2026-11-02T04:36:02Z" duration-ms="20083">
+      <class name="TestGuru99">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:TestGuru99@6c3f5566]" started-at="2026-11-02T11:35:42Z" name="openURL" finished-at="2026-11-02T11:35:54Z" duration-ms="12717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="verifyHomepageTitle()[pri:0, instance:TestGuru99@6c3f5566]" started-at="2026-11-02T11:35:54Z" name="verifyHomepageTitle" finished-at="2026-11-02T11:35:54Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="verifyREGISTERTitle()[pri:0, instance:TestGuru99@6c3f5566]" started-at="2026-11-02T11:35:54Z" name="verifyREGISTERTitle" finished-at="2026-11-02T11:35:58Z" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyREGISTERTitle -->
+        <test-method signature="verifySUPPORTTitle()[pri:0, instance:TestGuru99@6c3f5566]" started-at="2026-11-02T11:35:58Z" name="verifySUPPORTTitle" finished-at="2026-11-02T11:35:59Z" duration-ms="1342" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Register: Mercury Tours] but found [Under Construction: Mercury Tours]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Register: Mercury Tours] but found [Under Construction: Mercury Tours]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TestGuru99.verifySUPPORTTitle(TestGuru99.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySUPPORTTitle -->
+        <test-method signature="verifyLoginSuccess()[pri:0, instance:TestGuru99@6c3f5566]" started-at="2026-11-02T11:35:59Z" name="verifyLoginSuccess" finished-at="2026-11-02T11:36:02Z" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccess -->
+        <test-method is-config="true" signature="closeBrower()[pri:0, instance:TestGuru99@6c3f5566]" started-at="2026-11-02T11:36:02Z" name="closeBrower" finished-at="2026-11-02T11:36:02Z" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- TestGuru99 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
